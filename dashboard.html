@@ -27,12 +27,13 @@
                 </a>
 
                 <form action="#" class="hidden lg:block lg:pl-32">
-                    <div class="absolute inset-y-0 mt-8 ml-3 ">
+                    <div class="relative">
+                    <div class="absolute inset-y-0 mt-2 ml-3 ">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
                     <input type="text" class="bg-gray-50 border border-gray-300 text-primary-900 sm:text-sm rounded-xl
                     focus:ring-second-900 focus:border-second-900 block xl:w-[36rem]  pl-10 p-2" placeholder="Search...">
-
+                </div>
 
                 </form>
 
@@ -50,15 +51,54 @@
                 <i class="fa-solid fa-bell"></i>
              </div>
 
-             <div class="flex items-center text-white mr-2 ml-2">
-                <i class="fa-solid fa-inbox"></i>
-             </div>
+           
+              <!-------------User Inbox Start-->
+              <div  class="flex justify-end p-4">
 
+               
+                <div class="relative">
+               <!-------------User Menu Inbox-->
+               <button class="text-white" id="user-menu-inbox-button"> 
+                <i class="fa-solid fa-inbox"></i>
+
+               </button>
+
+                 <!-------------User Menu Inbox END-->
+
+
+                  <!-------------User Menu  Inbox-->
+                  <div class="absolute right-0  mt-8 w-56 bg-white border border-primary-600 rounded-lg  hidden shadow-xl" id="user-menu-Inbox">
+                   <ul class="py-2">
+                       <li class="text-gray-600 mb-2 list-item p-2  hover:bg-second-900">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita libero iure dicta perspiciatis...</li>
+                       <li class="text-gray-600 mb-2 list-item p-2  hover:bg-second-900">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet natus vel fugiat reiciendis quas, eum eos.... </li>
+
+                   </ul>
+                
+
+                  </div>
+
+               </div>
+
+                   <!-------------User Menu END-->
+
+                 
+
+
+
+
+
+           </div>
+
+            <!-------------User Inbox End-->
+
+
+ <!-------------User Profile Start-->
              <div  class="flex justify-end p-4">
 
-                 <!-------------User Menu-->
-
-                <button class="text-white"> 
+               
+                 <div class="relative">
+                <!-------------User Menu-->
+                <button class="text-white" id="user-menu-button"> 
                     <img src="src/img/profile.jpg" class="w-9 h-9 ml-2 rounded-full" />
 
                 </button>
@@ -67,7 +107,7 @@
 
 
                    <!-------------User Menu -->
-                   <div class="absolute  right-72 mt-8 w-56 bg-white border border-primary-600 rounded-lg shadow-xl">
+                   <div class="absolute right-0  mt-8 w-56 bg-white border border-primary-600 rounded-lg hidden shadow-xl" id="user-menu">
                     <div class="px-4 py-2">
                         <p class="text-gray-600">Efe görkem Ümit</p>
                         <p class="text-gray-600">Youtube@gmail.com</p>
@@ -86,7 +126,7 @@
 
                    </div>
 
-
+                </div>
 
                     <!-------------User Menu END-->
 
@@ -96,7 +136,9 @@
 
 
 
-                 </div>
+            </div>
+
+             <!-------------User Profile End-->
 
                  <a href="" class="hidden sm:inline-flex ml-5 text-primary-900 bg-second-900
                   hover:bg-second-800 focus:ring-4 font-medium px-5 py-3 rounded-xl items-center mr-3">Youtube Efe Görkem Ümit</a>
@@ -127,7 +169,7 @@
   
 
 
-
+        <script type="text/javascript" src="src/js/script.js"></script>
     
 </body>
 </html>
