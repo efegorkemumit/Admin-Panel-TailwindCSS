@@ -40,6 +40,15 @@ userMenuButtonBell.addEventListener('click', ()=> {
     toggleUserMenu(userMenuBell)
 })
 
+document.addEventListener("DOMContentLoaded", function(){
+    const toggleButtons  = document.querySelectorAll(".toggle-menu");
 
+    toggleButtons.forEach((button)=>{
+        button.addEventListener("click", function(){
+            const submenu = button.nextElementSibling;
+            submenu.classList.toggle("hidden");
+        });
+    });
+});
 
 

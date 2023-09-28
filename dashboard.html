@@ -207,20 +207,144 @@
 
 
             <!-------------Sidebar START-->
+            <!-------------Menuler
+
+                Dashboard
+                -------
+                Pages
+                    Sign in
+                    Sign up
+                    Forgot Password
+                    Reset Password
+                    Profile Lock
+
+                -------
+                E-Commerce
+                    Products
+                    Billing
+                    Invoice
+
+
+                -------
+                Users
+                    UserList
+                    Profile
+                    Settings
+
+                ---
+                
+
+
+                
+                
+                START-->
 
             <aside class="fixed hidden z-20 h-full top-0 left-0 pt-16 lg:flex flex-shrink-0 flex-col w-72">
                 <div class="bg-primary-900 border-b border-primary-600 relative flex-1 flex flex-col pt-0">
                     <div class="flex-1 flex flex-col pt-5 pb-4 overflow-y-auto">
                         <div class="flex-1 px-3 bg-primary-900 divide-y space-y-2">
-                            <ul class="space-y-2 pb-2 mt-6">
+                            <ul class="space-y-2 pb-2 mt-6 relative">
                                 <li>
-                                    <a href="dashboard.html" class="text-white ml-3 font-poppins text-base items-center flex rounded-lg font-normal pt-2 hover:text-second-900">
+                                    <a href="dashboard.html" class="text-white ml-6 font-poppins text-lg  items-center flex rounded-lg font-normal pt-2 hover:text-second-900">
                                         <i class="fa-solid fa-gauge"></i> 
                                         <span class="ml-3">Dashboard</span>
                                     </a>
+                                </li>
+                                <!------------- Dropdown Menu-->
+                                 <li>
+                                        <a href="#" class="text-white ml-6 font-poppins text-lg items-center flex rounded-lg font-normal pt-2 hover:text-second-900 toggle-menu">
+                                            <i class="fa-regular fa-file"></i>
+                                            <span class="ml-4">Pages</span>
+                                            <i class="fa-solid fa-chevron-down ml-auto"></i>
+                                        </a>
+
+                                
+                                        <ul class="ml-6 submenu hidden">
+                                            <li>
+                                                <a href="index.html" class="text-white ml-3 font-poppins text-lg items-center flex rounded-lg font-normal pt-2 hover:text-second-900 toggle-menu">
+                                                    <span class="ml-3">Sign in</span>
+                                                </a>
+                                                <a href="sign-up.html" class="text-white ml-3 font-poppins text-lg items-center flex rounded-lg font-normal pt-2 hover:text-second-900 toggle-menu">
+                                                    <span class="ml-3">Sign up</span>
+                                                </a>
+                                                <a href="forget-password.html" class="text-white ml-3 font-poppins text-lg items-center flex rounded-lg font-normal pt-2 hover:text-second-900 toggle-menu">
+                                                    <span class="ml-3">Forgot Password</span>
+                                                </a>
+                                                <a href="reset-password.html" class="text-white ml-3 font-poppins text-lg items-center flex rounded-lg font-normal pt-2 hover:text-second-900 toggle-menu">
+                                                    <span class="ml-3">Reset Password</span>
+                                                </a>
+
+                                                <a href="profile-lock.html" class="text-white ml-3 font-poppins text-lg items-center flex rounded-lg font-normal pt-2 hover:text-second-900 toggle-menu">
+                                                    <span class="ml-3">Profile Lock</span>
+                                                </a>
+
+
+                            
+                                            </li>
+                                
+                                        </ul>
                                  </li>
+                                  <!------------- Dropdown Menu End-->
 
+                                     <!------------- Dropdown Menu-->
+                                 <li>
+                                    <a href="#" class="text-white ml-6 font-poppins text-lg items-center flex rounded-lg font-normal pt-2 hover:text-second-900 toggle-menu">
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                        <span class="ml-3">E-Commerce</span>
+                                        <i class="fa-solid fa-chevron-down ml-auto"></i>
+                                    </a>
 
+                                    
+                                
+                                    <ul class="ml-6 submenu hidden">
+                                        <li>
+                                            <a href="products.html" class="text-white ml-3 font-poppins text-lg items-center flex rounded-lg font-normal pt-2 hover:text-second-900 toggle-menu">
+                                                <span class="ml-3">Products</span>
+                                            </a>
+                                            <a href="billing.html" class="text-white ml-3 font-poppins text-lg items-center flex rounded-lg font-normal pt-2 hover:text-second-900 toggle-menu">
+                                                <span class="ml-3">Billing</span>
+                                            </a>
+                                            <a href="invoice.html" class="text-white ml-3 font-poppins text-lg items-center flex rounded-lg font-normal pt-2 hover:text-second-900 toggle-menu">
+                                                <span class="ml-3">Invoice</span>
+                                            </a>
+
+                                        </li>
+                            
+                                    </ul>
+                             </li>
+                              <!------------- Dropdown Menu End-->
+
+                                 <!------------- Dropdown Menu-->
+                                 <li>
+                                    <a href="#" class="text-white ml-6 font-poppins text-lg items-center flex rounded-lg font-normal pt-2 hover:text-second-900 toggle-menu">
+                                        <i class="fa-solid fa-users"></i><span class="ml-4">Users</span>
+                                        <i class="fa-solid fa-chevron-down ml-auto"></i>
+                                    </a>
+
+                                    
+                                    
+                                    
+                                    
+                                    <ul class="ml-6 submenu hidden">
+                                        <li>
+                                            <a href="userlist.html" class="text-white ml-3 font-poppins text-lg items-center flex rounded-lg font-normal pt-2 hover:text-second-900 toggle-menu">
+                                                <span class="ml-3">UserList</span>
+                                            </a>
+                                            <a href="profile.html" class="text-white ml-3 font-poppins text-lg items-center flex rounded-lg font-normal pt-2 hover:text-second-900 toggle-menu">
+                                                <span class="ml-3">Profile</span>
+                                            </a>
+                                            <a href="settings.html" class="text-white ml-3 font-poppins text-lg items-center flex rounded-lg font-normal pt-2 hover:text-second-900 toggle-menu">
+                                                <span class="ml-3">Settings</span>
+                                            </a>
+
+                                        </li>
+                            
+                                    </ul>
+                             </li>
+                              <!------------- Dropdown Menu End-->
+                            
+                                  
+                              
                             </ul>
 
                         </div>
@@ -231,7 +355,9 @@
             </aside>
 
 
-
+            <script>
+               
+            </script>
            
               
            
