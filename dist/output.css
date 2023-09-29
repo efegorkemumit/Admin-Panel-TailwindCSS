@@ -693,6 +693,22 @@ video {
   grid-column: span 2 / span 2;
 }
 
+.m-3 {
+  margin: 0.75rem;
+}
+
+.m-6 {
+  margin: 1.5rem;
+}
+
+.m-10 {
+  margin: 2.5rem;
+}
+
+.m-12 {
+  margin: 3rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -856,6 +872,10 @@ video {
 
 .mt-14 {
   margin-top: 3.5rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
 }
 
 .block {
@@ -2168,6 +2188,10 @@ video {
 
   .lg\:mt-16 {
     margin-top: 4rem;
+  }
+
+  .lg\:mb-0 {
+    margin-bottom: 0px;
   }
 
   .lg\:block {
