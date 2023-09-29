@@ -1449,6 +1449,11 @@ video {
   border-color: rgb(17 24 39 / var(--tw-border-opacity));
 }
 
+.border-primary-800 {
+  --tw-border-opacity: 1;
+  border-color: rgb(18 18 18 / var(--tw-border-opacity));
+}
+
 .bg-second-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(255 198 0 / var(--tw-bg-opacity));
@@ -2367,6 +2372,11 @@ video {
   .md\:divide-gray-100 > :not([hidden]) ~ :not([hidden]) {
     --tw-divide-opacity: 1;
     border-color: rgb(243 244 246 / var(--tw-divide-opacity));
+  }
+
+  .md\:divide-second-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgb(255 198 0 / var(--tw-divide-opacity));
   }
 }
 
