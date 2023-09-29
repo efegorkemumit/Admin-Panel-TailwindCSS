@@ -2204,6 +2204,11 @@ video {
   --tw-ring-color: rgb(252 165 165 / var(--tw-ring-opacity));
 }
 
+.focus\:ring-second-800:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(239 204 82 / var(--tw-ring-opacity));
+}
+
 .group:hover .group-hover\:block {
   display: block;
 }
