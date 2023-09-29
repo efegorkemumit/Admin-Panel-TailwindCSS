@@ -1795,6 +1795,16 @@ video {
   color: rgb(29 78 216 / var(--tw-text-opacity));
 }
 
+.hover\:text-second-800:hover {
+  --tw-text-opacity: 1;
+  color: rgb(239 204 82 / var(--tw-text-opacity));
+}
+
+.hover\:text-second-600:hover {
+  --tw-text-opacity: 1;
+  color: rgb(246 223 141 / var(--tw-text-opacity));
+}
+
 .hover\:underline:hover {
   text-decoration-line: underline;
 }
