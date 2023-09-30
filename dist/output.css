@@ -673,6 +673,10 @@ video {
   top: 1rem;
 }
 
+.-left-16 {
+  left: -4rem;
+}
+
 .z-30 {
   z-index: 30;
 }
@@ -1211,6 +1215,10 @@ video {
 
 .w-1\/2 {
   width: 50%;
+}
+
+.w-32 {
+  width: 8rem;
 }
 
 .min-w-0 {
