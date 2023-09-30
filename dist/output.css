@@ -1221,6 +1221,18 @@ video {
   width: 8rem;
 }
 
+.w-36 {
+  width: 9rem;
+}
+
+.w-28 {
+  width: 7rem;
+}
+
+.w-24 {
+  width: 6rem;
+}
+
 .min-w-0 {
   min-width: 0px;
 }
@@ -1243,6 +1255,10 @@ video {
 
 .flex-1 {
   flex: 1 1 0%;
+}
+
+.flex-auto {
+  flex: 1 1 auto;
 }
 
 .flex-shrink-0 {
