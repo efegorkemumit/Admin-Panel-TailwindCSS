@@ -1156,6 +1156,10 @@ video {
   width: 50%;
 }
 
+.w-2\/4 {
+  width: 50%;
+}
+
 .min-w-0 {
   min-width: 0px;
 }
@@ -1239,6 +1243,10 @@ video {
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-start {
